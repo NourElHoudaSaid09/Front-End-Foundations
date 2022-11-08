@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L010HandsOn</title>
+    <link href="style.css" type="text/CSS" rel="stylesheet" >
+    <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" 
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" 
+            crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="headers">My Personal Portfolio</h1>
+        <h2 class="headers">Nour El Houda Said | Computer and Communication Engineering</h2>
+
+        <div class="row justify-content-center" id="content">
+            <div class="col align-self-center" id="myImg">
+                <img src="person.png" alt="Profile Image">
+            </div>
+            <div class="col align-self-center" id="socialMedia">
+                <a class="icons" href="https://www.github.com">
+                    <img src="https://img.icons8.com/glyph-neue/64/000000/github.png"/>
+                </a>
+                <a class="icons" href="https://www.linkedin.com">
+                   <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png"/>
+                </a>
+                <a class="icons" href="https://www.tweeter.com">
+                   <img src="https://img.icons8.com/ios-filled/50/000000/twitter.png"/>
+                </a>
+                <br>
+                <button id="repos" class="btn btn-outline-primary" type="button" onclick="getRepos()">SEE MY REPOS</button>
+                <br>
+                <p id="myRepos"></p>    
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+<footer class="footer">
+    <div class="row justify-content-center align-items-center contact">
+        <img src="https://img.icons8.com/ios/50/000000/send-mass-email.png"/>: Nour@example.com 
+    </div>
+</footer>
+</html>
